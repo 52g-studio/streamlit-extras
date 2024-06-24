@@ -28,7 +28,7 @@ def add_logo(logo_url: str, height: int = 120):
             [data-testid="stSidebarNav"] {{
                 background-image: {logo};
                 background-repeat: no-repeat;
-                padding-top: {height - 40}px;
+                background-size: 50%;
                 background-position: 20px 20px;
             }}
         </style>
